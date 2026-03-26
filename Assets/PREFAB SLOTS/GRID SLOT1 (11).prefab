@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3498635057940512569}
   - component: {fileID: 5624546521332025182}
   - component: {fileID: 1101102349740751974}
+  - component: {fileID: 562423285297738441}
   m_Layer: 5
   m_Name: GRID SLOT1 (11)
   m_TagString: GridSlot
@@ -142,3 +143,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!114 &562423285297738441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15683655360955537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd62297ebd14bb4b8087071ce92508f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tile
+  gridPos: {x: 0, y: 0}
+  isOccupied: 0
+  tileColor: {r: 1, g: 1, b: 1, a: 1}
